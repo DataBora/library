@@ -11,4 +11,5 @@
 - WildFly
 
 ## DB Model
-![Domen za biblioteku](https://github.com/DataBora/library/assets/94956337/995b7873-ded0-439c-875d-26eb19d0172c)
+
+![Domen za bibliotekuMALA](https://github.com/DataBora/library/assets/94956337/eddd4459-a13a-46bb-a92d-d2f1230dc061)
