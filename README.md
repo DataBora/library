@@ -1,6 +1,6 @@
 # Hello! 👋 Thank you for stopping by! 😊
 
-# This is a repository where I will build my Library - REST Application
+# This is a repository for Library - REST Application
 ## Tech used
 - Java EE
 - REST service
