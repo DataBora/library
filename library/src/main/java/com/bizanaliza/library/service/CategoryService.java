@@ -14,6 +14,7 @@ public class CategoryService {
 	@PersistenceContext
 	private EntityManager em;
 	
+	//metod za vracanje kategorije po nazivu
 	public Category createCategory(Category category) {
 		
 		if(category.getName().length() > 50) {
@@ -28,6 +29,13 @@ public class CategoryService {
 		
 		em.persist(category);
 		return category;
+	}
+	
+	//metod za vracanje svih kategorija
+	public List<Category> getAll(){
+		
+		List<Category> cs = CategoryQueries.getAll(em);
+		return cs;
 	}
 	
 }
