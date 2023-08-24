@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 
 public class CategoryQueries {
-	
+	//Query za metod koji ce vracati kategoriju po nazivu
 	public static Category findByName(EntityManager em, String name) {
 		
 		String q = "select c from Category c where c.name = :name";
@@ -19,5 +19,17 @@ public class CategoryQueries {
 		if(c.isEmpty()) return null;
 		return c.get(0);
 	}
+	
+	//Query za metod koji ce vracati sve kategorije
+	public static List<Category> getAll(EntityManager em){
+		String q = "select c from Category c";
+		
+		TypedQuery<Category> query = em.createQuery(q, Category.class);
+		
+		return query.getResultList();
+		
+	}
+
+	
 
 }
