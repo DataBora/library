@@ -11,9 +11,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
-
 @Entity
-//kada ne zelimo da dovlacimo informacije iz nekog atribut
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Category {
@@ -24,7 +22,6 @@ public class Category {
 	
 	private String name;
 
-	//na ovaj nacin kazemo da je atribut Books nebitan za XML i necemo ga dohvatati
 	@XmlTransient
 	@OneToMany(mappedBy = "category")
 	private Set<Book> books;
