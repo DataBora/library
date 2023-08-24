@@ -8,6 +8,9 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
 @Entity
+//kada ne zelimo da dovlacimo informacije iz nekog atribut
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Category {
 	
 	@Id
@@ -15,7 +18,9 @@ public class Category {
 	private long id;
 	
 	private String name;
-	
+
+	//na ovaj nacin kazemo da je atribut Books nebitan za XML i necemo ga dohvatati
+	@XmlTransient
 	@OneToMany(mappedBy = "category")
 	private Set<Book> books;
 	
