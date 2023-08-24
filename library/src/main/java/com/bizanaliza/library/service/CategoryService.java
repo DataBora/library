@@ -8,6 +8,8 @@ import com.bizanaliza.library.domain.Category;
 import com.bizanaliza.library.domain.CategoryQueries;
 import com.bizanaliza.library.rest.ErrorMessages;
 
+import java.util.List;
+
 @Stateless
 public class CategoryService {
 
