@@ -1,4 +1,4 @@
-# Hello! 👋 Thank you for stopping by! 😊
+# 👋 Thank you for stopping by! 😊
 
 # This is a Library - RESTful Application
 ## Tech used
