@@ -1,7 +1,8 @@
 # 👋 Thank you for stopping by! 😊
 
 # This is a Library - RESTful Application
-## Not complete solution as I still need to add REST for 3 more entities, which I will when time permits 😒🙄
+## Not complete solution as 2 more entities need REST and login needs to be added. 
+## If you follow the code, I have no doubt that you will be able to do it! 😊
 ## Tech used 
 - Java EE
 - JAXRS - REST services
