@@ -1,7 +1,8 @@
 # 👋 Thank you for stopping by! 😊
 
 # This is a Library - RESTful Application
-## Tech used
+## Not complete solution as I still need to add REST for 3 more entities, which I will when time permits.
+## Tech used 
 - Java EE
 - REST service
 - EJB
