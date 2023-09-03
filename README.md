@@ -4,7 +4,7 @@
 ## Not complete solution as I still need to add REST for 3 more entities, which I will when time permits 😒🙄
 ## Tech used 
 - Java EE
-- REST service
+- JAXRS - REST services
 - EJB
 - JPA
 - Hibernate
